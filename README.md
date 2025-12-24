@@ -14,8 +14,10 @@
 - [References](references)
 
 ### Project Overview
-
+---
 This report provides a comprehensive analysis of sales performance across multiple dimensions, including geography, product, manufacturer, and time. Key insights and metrics are visualized to support data-driven decision-making.
+
+<img width="1112" height="744" alt="Sales and Revenue PowerBi Analysis Dashboard" src="https://github.com/user-attachments/assets/dcf336ea-fec7-4d43-96a4-a5ee7be862c0" />
 
 ### Data Sources
 
@@ -52,12 +54,18 @@ This process ensured that the data was clean, well-structured, and ready for acc
 
 EDA involved exploring the sales data to answer key questions, such as 
 
-- Total Revenue and Units Sold.
-- Sales by Geography: Revenue and units sold by country.
-- Sales by Product and Category: Breakdown of sales by product, product category (e.g., Urban), and manufacturer.
-- Time-Based Trends: Revenue and units sold by year and month to identify seasonality or growth patterns.
-- Customer/Market Reach: Number of unique cities (ZIPs) and countries served.
-- Top Performing products
+- Total Revenue.
+- Total number of Products.
+- Total number of Manufactures.
+- % of Urban Revenue.
+- Number of countries
+- Total number of cities.
+- Revenue trend by year and month.
+- Top 5 Manufacturers By Revenue.
+- Top 10 Products By Revenue.
+- Total Revenue By category.
+- Total Revenue By Country.
+- Segment, Revenue, and a Sparkline of revenue by product (Table Visual).
 
 ### Data Analysis
 
@@ -85,10 +93,12 @@ Based on the analysis, I recommend these actions:
 - Improve data quality by prioritising product categorisation to reduce uncategorised revenue from over 95% to an acceptable threshold.
 - Standardise product and geographic definitions across all data sources.
 
-  ### Limitations
-  I had to fill in some empty columns after observing the required trend such as inclluding the column for the United States, I had to categorise the ZIP codes for each country due to their different formats. A significant number of the products were uncategorised hence affecting detailed insightsat the product- category analysis. There were other missing or incomplete data (e.g., blank city cells, Region and State) which reduced the level of insights that could be generated
+### Limitations
+  Filling some empty columns after observing the required trend such as filling county column for the United States, Challenges with the ZIP codes for each country due to their different formats hence affected proper selection of data type. A significant number of the products were uncategorised hence affecting detailed insight sat the product- category analysis. There were other missing or incomplete data (e.g., blank city cells, Region and State) which reduced the level of insights that could be generated.
 
 ### References
 1. Microsoft. (2025). Power BI Documentation. Retrieved from: https://docs.microsoft.com/power-bi/
 2. Microsoft Learn. (2025). Data Analysis and Visualization Best Practices. Retrieved from: https://learn.microsoft.com/power-bi/guidance/
+
+
 
