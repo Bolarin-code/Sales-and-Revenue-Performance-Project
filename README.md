@@ -45,7 +45,7 @@ The following tasks were carried out in the initial data preparation phase:
 - New columns were created for analysis, such as concatenating country and ZIP to create unique zipcodes and extracting year and month from dates
 - Checks were performed to identify and address missing or duplicate values, ensuring data integrity.
 - Some columns (e.g., price) were split and transformed to extract usable values
-- Relationships between tables (e.g., ProductID, CountryZip) were defined to enable multi-table analysis.
+- Relationships between tables (e.g., Date tables, Unique CountryZip) were defined to enable multi-table analysis.
 - Data was filtered and sorted as needed to focus on relevant records and improve report performance.
 
 This process ensured that the data was clean, well-structured, and ready for accurate, insightful analysis in Power BI.
@@ -74,11 +74,13 @@ PowerBI
 ### Results/Findings
 
 The Analysis results are summarised as follows:
-1. Certain countries contribute significantly more to total revenue, indicating strong market presence in those areas.
-2. Some manufacturers offer a wider range of products, and these often correlate with higher sales volumes.
-4. Analysis identifies top-performing products and categories, as well as those with lower sales, providing opportunities for targeted improvement or investment
-5. Year-over-year (YoY) analysis highlights consistent growth overtime
-6. The number of unique cities (ZIP codes) served demonstrates broad market reach
+1. The business operates on a significant scale, generating $2.84 billion in total revenue across five countries, 146,000 cities, 14 manufacturer, and over 2,412 products. Performance remains robust, with $471.4 million delivered year-to-date indicating sustained growth momentum
+2. Revenue distribution is uneven; key markets like the US and Australia drive the bulk of revenue, while other countries contribute less. One manufacturer accounts for over $1.25 billion, creating dependency, and a small group of high-performing products drives a large revenue share. Some manufacturers offer a wider range of products, and these often correlate with higher sales volumes.
+3. Urban revenue accounts for only 4.04% of total sales, suggesting either untapped potential or a need to redefine urban markets. Additionally, 95.21% of revenue is considered uncategorized, limiting product mix visibility and highlighting a need for better data governance.
+4. The business shows strong growth and has opportunities to reduce reliance on key markets and partners, improve data quality, and drive growth via focused geographic, supplier, and product strategies.
+5. Analysis identifies top-performing products providing opportunities for targeted improvement or investment.
+6. Year-over-year (YoY) analysis highlights consistent growth overtime
+7. The number of unique (ZIP codes)-146,000 demonstrates broad market reach
 
 ### Recommendations
 
